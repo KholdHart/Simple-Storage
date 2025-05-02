@@ -1,0 +1,98 @@
+{
+	"compiler": {
+		"version": "0.8.26+commit.8a97fa7a"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "createSimpleStorageContract",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "listOfSimpleStorageContracts",
+				"outputs": [
+					{
+						"internalType": "contract SimpleStorage",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_simpleStorageIndex",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_newSimpleStorageNumber",
+						"type": "uint256"
+					}
+				],
+				"name": "sfStore",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Cyfrin/SimpleStorage/StorageFactory.sol": "StorageFactory"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Cyfrin/SimpleStorage/SimpleStorage.sol": {
+			"keccak256": "0xd7cc7b46d81c7bee464624ed7302c2ba7e7d77a331f96ea86f895f1565ffad43",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3fbbda130e3cc618b015f403ecd1cbd52d5367812a96447fcbb40cd8aec452da",
+				"dweb:/ipfs/QmYXDUT343r6yk7qyeDaCJVq2RuLtWA4nB88nzyFUV6gCh"
+			]
+		},
+		"Cyfrin/SimpleStorage/StorageFactory.sol": {
+			"keccak256": "0xc8f49d757dd6cc85aa40fafe35dc05520be51ded8fa642064756270ae396f3b2",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://b57b3f726bffbc1b32982e01b240d785f4b5b78c545754654c550a2ecff9c5e7",
+				"dweb:/ipfs/QmbZemrdwpQ1RFy6bj9sHGaf64prf1vhCKnqGgGoffuVAj"
+			]
+		}
+	},
+	"version": 1
+}
